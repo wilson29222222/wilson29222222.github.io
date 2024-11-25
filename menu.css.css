@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+  
+    background-image: url(fondo2.jpg);
+   
+    
+    
+   
+}
+header{
+    
+   
+   
+    color: rgb(11, 12, 12);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    padding: 10px;
+    
+    border-bottom: 5px solid  rgb(37, 92, 139);
+}
+
+header h1{
+    background-color: rgb(185, 52, 52);
+   opacity: 90%;
+   height: 50px;
+   width: 500pxpx;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+header img{
+    height: 100px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+
+nav{
+justify-content: end;
+display: flex;
+background-color: rgb(185, 52, 52);
+opacity: 90%;
+padding-right: 20px;
+align-items: center;
+height: 100px;
+padding: 10px;
+border-bottom: 5px solid rgb(37, 92, 139);
+}
+
+
+
+ul{
+    padding-right: 60px;
+    display: flex;
+    
+}
+li{
+    padding-right: 80px;
+    display: inline;
+    gap: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ 
+
+li a:hover{
+    color: white;
+    background-color: rgb(37, 92, 139);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+section{
+    border-bottom: 5px solid rgb(132, 163, 190);
+    padding: 10px;
+    
+}
+
+/*BARRA DE NAVEGACION*/
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 100px;
+
+    
+}
+    
+.platos2{
+   display: flex;
+   justify-content: space-evenly;
+   padding: 50px;
+}
+
+.raa{
+    background-color:rgb(185, 52, 52);
+    height: 450px;
+    width: 450px;
+    padding: 40px;
+    border-radius: 50px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border:5px solid rgb(37, 92, 139);
+}
+.raa li{
+    font-size: 13px;
+}
+.raa h2{
+    padding-bottom: 20px;
+}
+
+
+.raa:hover{
+    height: 470px;
+    width: 470px;
+    transition: all 0.8s ease-in-out;
+}
+
+.descripcion{
+
+list-style: disc;
+padding-left: 20px;
+flex-direction: column;
+}
+
+del{
+    color:rgb(155, 155, 155);
+ 
+}
+.tachado{
+    text-decoration: none;
+    color: greenyellow;
+}
+.iconos{
+    justify-content: start;
+    padding-right: 1200px;
+    
+ 
+ }
+ .iconos img{
+    
+     padding-right: 30px;
+     width: 40px;
+     height: 40px;
+     
+  }
+ 

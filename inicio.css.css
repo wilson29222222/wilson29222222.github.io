@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+  
+    background-image: url(fondo2.jpg);
+   
+    
+    
+   
+}
+header{
+    
+   
+   
+    color: rgb(11, 12, 12);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    padding: 10px;
+    
+    border-bottom: 5px solid  rgb(37, 92, 139);
+}
+
+header h1{
+    background-color: rgb(185, 52, 52);
+   opacity: 90%;
+   height: 50px;
+   width: 500pxpx;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+header img{
+    height: 100px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+
+nav{
+justify-content: end;
+display: flex;
+background-color: rgb(185, 52, 52);
+opacity: 90%;
+padding-right: 20px;
+align-items: center;
+height: 100px;
+padding: 10px;
+border-bottom: 5px solid rgb(37, 92, 139);
+}
+
+
+
+ul{
+    padding-right: 60px;
+    display: flex;
+    
+}
+li{
+    padding-right: 80px;
+    display: inline;
+    gap: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ 
+
+li a:hover{
+    color: white;
+    background-color: rgb(37, 92, 139);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+section{
+    border-bottom: 5px solid rgb(132, 163, 190);
+    padding: 10px;
+    
+
+}
+section h2{
+
+    padding:20px;
+    background-color: rgb(185, 52, 52);
+    border-radius: 10px;
+    width: 350px;
+    opacity: 90%;
+}
+
+section h3{
+    background-color: rgb(185, 52, 52);
+    border-radius: 10px;
+    padding: 20px;
+    opacity: 90%;
+   margin-top: 20px;
+
+}
+    
+
+
+section embed{
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 500px;
+}
+.menu{
+    padding-top: 40px;
+    padding-left: 40px;
+    display: flex;
+    height: 400px;
+    width: 400px;
+    
+}
+
+.li{
+   display: flex;
+}
+
+.rest1{
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.rest1 img{ 
+    width: 800px;
+    height: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.iconos{
+   justify-content: start;
+   padding-right: 1200px;
+   
+
+}
+.iconos img{
+   
+    padding-right: 30px;
+    width: 40px;
+    height: 40px;
+    
+ }

@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+  
+    background-image: url(fondo2.jpg);
+   
+    
+    
+   
+}
+header{
+    
+   
+   
+    color: rgb(11, 12, 12);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    padding: 10px;
+    
+    border-bottom: 5px solid  rgb(37, 92, 139);
+}
+
+header h1{
+    background-color: rgb(185, 52, 52);
+   opacity: 90%;
+   height: 50px;
+   width: 500pxpx;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+header img{
+    height: 100px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+
+nav{
+justify-content: end;
+display: flex;
+background-color: rgb(185, 52, 52);
+opacity: 90%;
+padding-right: 20px;
+align-items: center;
+height: 100px;
+padding: 10px;
+border-bottom: 5px solid rgb(37, 92, 139);
+}
+
+
+
+ul{
+    padding-right: 60px;
+    display: flex;
+    
+}
+li{
+    padding-right: 80px;
+    display: inline;
+    gap: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ 
+
+li a:hover{
+    color: white;
+    background-color: rgb(37, 92, 139);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+section{
+    
+    
+    padding: 350px;
+    
+
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+input, textarea{
+    margin-bottom: 20px;
+}
+.content{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 450px;
+    height: 450px;
+    background-color: rgb(185, 52, 52);
+   
+
+    color: black;
+    top: 68%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    border: solid 3px rgb(37, 92, 139);;
+
+    padding: 70px 30px;
+}
+.content .ulpana{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+
+}
+.content label{
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    display: block;
+}
+.content h2{
+    margin: 0px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+.content input[type="text"],
+.content input[type="email"],
+.content input[type="tel"],
+.content textarea {
+border: none;
+border-bottom: 1px solid rgb(28, 68, 102);
+background: transparent;
+outline: none;
+height: 40px;
+color: rgb(0, 2, 3);
+font-size: 16px;
+}
+
+.content input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 30px;
+    background-color: rgb(219, 219, 107);
+    font-size: 18px;
+    border-radius: 22px;
+}
+
+.iconos{
+    justify-content: start;
+    padding-right: 1200px;
+    
+ 
+ }
+ .iconos img{
+    
+     padding-right: 30px;
+     width: 40px;
+     height: 40px;
+     
+  }
+ 

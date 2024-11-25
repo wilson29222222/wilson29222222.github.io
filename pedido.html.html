@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="pedido.css">
+</head>
+<body>
+    <header>
+        <h1>ULPANA GOURMET</h1>
+    </header>
+
+
+    <nav>
+        <div class="iconos">
+            <a href="https://web.whatsapp.com/"><img src="what.png" alt=""></a>
+            <a href="https://www.instagram.com/"><img src="insta.png" alt=""></a>
+            <a href="https://www.facebook.com/"><img src="face.png" alt=""></a>
+       
+        </div>
+    <ul>
+       <h2>
+        <li> <a href="inicio.html">Inicio</a></li>
+        <li> <a href="menu.html">Menu</a></li>
+        
+       </h2>
+    </ul>
+    </nav>
+    <section>
+        
+        <div id="pedidos" class="content">
+            <img class="ulpana" src="Ulpana Gourmet.jpg" alt="aa">
+            <h2>Envie su pedido !</h2>
+            <form id="pedidoForm">
+                <label for="">Nombre</label>
+                <input type="text" placeholder="Ingrese su nombre" required>
+
+                <label for="">Apellido</label>
+                <input type="text" placeholder="Ingrese su apellido" required>
+
+                <label for="">Email</label>
+                <input type="email" placeholder="Ingrese su emal" required>
+
+                <label for="">Telefono</label>
+                <input type="tel" placeholder="Ingrese su telefono" required>
+
+                <textarea placeholder="Detalles del pedido" required></textarea>
+                <input type="submit">
+            </form>
+            
+
+        </div>
+    </section>
+    <script>
+    function showPage(pageId) {
+        document.getElementById('inicio').style.display = 'none';
+        document.getElementById('menu').style.display = 'none';
+        document.getElementById('pedidos').style.display = 'none';
+        document.getElementById(pageId).style.display = 'block';
+    }
+    
+    document.getElementById('pedidoForm').addEventListener('submit', function(e)
+    {
+    e.preventDefault();
+    alert('Pedido enviado, gracias paaa');
+    this.reset();
+    });
+</script>
+
+
+
+
+</body>
+</html>
